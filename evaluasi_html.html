@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Judul Halaman</title>
+</head>
+<body>
+    <h1>Selamat Datang di Situs Web Saya</h1>
+    <h2>Pengelolaan Teks</h2>
+    <p>Ini adalah paragraf pertama.</p>
+    <strong>ini cuma latihan </strong>
+    <em>ini juga sama aja</em>
+    <hr>
+    <blockquote>Sebagus-bagusnya karya yang kamu buat pasti ada orang yang tidak suka, tetapi seburuk-buruknya karya yang kau buat pasti ada orang yang menyukainya, jadi tetaplah berkarya. - Rio Purba -</blockquote>
+    <h2>Hyperlink dan Gambar</h2>
+    <p><a href="https://sanbercode.com/">Kunjungi Website</a></p>
+    <img src="logo-horizontal.png" alt="Merupakan Logo dari Sanbercode">
+    <h2>Membuat Daftar</h2>
+    <ol>
+        <li>membuat media pembelajaran berupa game edukasi</li>
+        <li>berlibur ke luar negeri</li>
+        <li>menyelesaikan pelatihan Bandung AI Camp dengan lancar sehingga dapat mengimplementasikan ilmunya</li>
+    </ol>
+    <ul>
+        <li>menggambar</li>
+        <li>main game</li>
+        <li>main bola</li>
+    </ul>
+    <h2>Tabel Data</h2>
+    <table border="1">
+        <tr>
+            <th>Nama</th>
+            <th>Umur</th>
+            <th>Kota</th>
+        </tr>
+        <tr>
+            <td>Alice</td>
+            <td>24</td>
+            <td>Bandung</td>
+        </tr>
+        <tr>
+            <td>In</td>
+            <td>27</td>
+            <td>Jakarta</td>
+        </tr>
+        <tr>
+            <td>Borderland</td>
+            <td>29</td>
+            <td>Malang</td>
+        </tr>
+    </table>
+    <h2>Formulir Pendaftaran</h2>
+    <form action="/submit" method="post">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama"><br><br>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+    
+        <label for="gender">Jenis Kelamin:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Laki-laki</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Perempuan</label><br><br>
+        <select name="kota">
+            <option value="Bandung">Jakarta</option>
+            <option value="Jakarta">Bandung</option>
+            <option value="Malang">Surabaya</option>
+        </select>
+        <input type="checkbox" name="agreement"> I agree
+    
+        <label for="pesan">Pesan:</label><br>
+        <textarea id="pesan" name="pesan"></textarea><br><br>
+    
+        <input type="submit" value="Kirim">
+    </form>
+
+
+</body>
+</html>
