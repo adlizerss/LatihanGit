@@ -37,3 +37,28 @@ a:hover {
     padding: 10px;
     border: 2px solid gray;
 }
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p {
+    background-image: url('sky.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    color: white;
+}
+
+.advanced-style {
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to right, blue, purple);
+    padding: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
